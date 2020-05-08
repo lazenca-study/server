@@ -1,0 +1,13 @@
+@endpoint=http://localhost:3000
+
+GET {{endpoint}} HTTP/1.1
+
+
+
+###
+
+GET {{endpoint}}/lotto/3 HTTP/1.1
+
+
+###
+POST {{endpoint}}/lotto/init HTTP/1.1
